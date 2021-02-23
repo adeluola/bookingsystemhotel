@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="books.css">
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="jumb">
+
+
+
+            <img src="kempiski.jpeg" alt="Luxe Hotel" style=" max-width: 100%">
+            <div class="title"> Luxe Hotel</div>
+        </div>
+        <div class="butt" id="book">
+            <button onclick="booker()">Book Now</button>
+        </div>
+        <!-- <form> -->
+        <div class="rooms" id='rooms'>
+            <div class="container">
+                <div class="row">
+                    <div class="form-group">
+                        <select class="form-control" id="roomtype">
+                            <option value="">-- Select Room Type -- </option>
+                            <option value="Standard" price="200" id="Standard">Standard</option>
+                            <option value="Double" price="400" id="Double">Double</option>
+                            <option value="Executive" price="600" id="Executive">Executive</option>
+                            <option value="President" price="1000" id="President">President</option>
+                        </select>
+                    </div>
+                    <Label for="Check-In" class="check"> Check-In
+                        <input name="Check-In" type="date" class="form-control" id="inputDate1"></Label>
+                    <Label for="Check-Out" class="check"> Check-Out
+                        <input name="Check-Out" type="date" class="form-control" id="inputDate2"></Label>
+
+                    <div class="butt">
+                        <button onclick="makePayment()" type="button">Reserve Room</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </form> -->
+    </div>
+    
+    <script src="books.js"></script>
+    
+    
+</body>
+
+</html>
