@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+
+div.butt {
+    margin-top: 10px;
+    text-align: center;
+}
+
+div.butt button {
+    margin: 0;
+    background: burlywood;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rooms {
+    background-color: white;
+    height: 30px;
+    top: 50px;
+    padding: 10px;
+}
+
+.tm-form-inner {
+    padding: 35px 30px 5px;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    margin-top: 0px;
+}
+
+.title {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px;
+    color: #fff;
+    text-transform: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 60%;
+    letter-spacing: 0;
+}
+
+.check {
+    font-size: 15px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
