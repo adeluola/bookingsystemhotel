@@ -19,13 +19,9 @@ div.butt button {
 
 .rooms {
     background-color: white;
-    height: 30px;
+   
     top: 50px;
     padding: 10px;
-}
-
-.tm-form-inner {
-    padding: 35px 30px 5px;
 }
 
 .container {
@@ -67,4 +63,30 @@ div.butt button {
     font-size: 15px;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.reserve
+{
+    margin-top: 10px;
+    text-align: center;
+}
+div.reserve .res{
+    margin: 0;
+    background: burlywood;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.close {
+    background: white;
+    border-style: none;
+    margin: 0;
+    
+}
+.close img
+{
+    border-radius: 100%;
+    border : 0;
+    max-width: 20px;
+    padding: 5px;
 }

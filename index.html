@@ -11,20 +11,16 @@
 <body>
     <div>
         <div class="jumb">
-
-
-
-            <img src="kempiski.jpeg" alt="Luxe Hotel" style=" max-width: 100%">
+            <img src="kempiski.jpeg" alt="Luxe Hotel" style=" max-width: 100%" price="200">
             <div class="title"> Luxe Hotel</div>
         </div>
-        <div class="butt" id="book">
-            <button onclick="booker()">Book Now</button>
+        <div class="butt">
+            <button onclick="standard()">Book Now</button>
         </div>
-        <!-- <form> -->
         <div class="rooms" id='rooms'>
             <div class="container">
                 <div class="row">
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <select class="form-control" id="roomtype">
                             <option value="">-- Select Room Type -- </option>
                             <option value="Standard" price="200" id="Standard">Standard</option>
@@ -32,24 +28,78 @@
                             <option value="Executive" price="600" id="Executive">Executive</option>
                             <option value="President" price="1000" id="President">President</option>
                         </select>
-                    </div>
+                    </div> -->
                     <Label for="Check-In" class="check"> Check-In
-                        <input name="Check-In" type="date" class="form-control" id="inputDate1"></Label>
+                        <input name="Check-In" type="date" class="form-control inputDate"></Label>
                     <Label for="Check-Out" class="check"> Check-Out
-                        <input name="Check-Out" type="date" class="form-control" id="inputDate2"></Label>
+                        <input name="Check-Out" type="date" class="form-control inputDate"></Label>
 
-                    <div class="butt">
-                        <button onclick="makePayment()" type="button">Reserve Room</button>
+                    <div class="reserve">
+                        <button class="res" onclick="pay()" type="button">Reserve Room</button>
+                        <button class="close" onclick="closer()" type="button"><img src="10-109443_back-x-clip-art-close-button-icon-png.png"></button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br/>
+
+   <div class="jumb">
+            <img src="kempiski.jpeg" alt="Luxe Hotel" style=" max-width: 100%">
+            <!-- <div class="title"> Luxe Hotel</div> -->
+        </div>
+        <div class="butt">
+            <button onclick="executive()">Book Now</button>
+        </div>
+        <div class="rooms" id='rooms'>
+            <div class="container">
+                <div class="row">
+                    
+                    <Label for="Check-In" class="check"> Check-In
+                        <input name="Check-In" type="date" class="form-control inputDate"></Label>
+                    <Label for="Check-Out" class="check"> Check-Out
+                        <input name="Check-Out" type="date" class="form-control inputDate"></Label>
+
+                    <div class="reserve">
+                        <button class="res" onclick="makePayment()" type="button">Reserve Room</button>
+                        <button class="close" onclick="closer2()"><img src="10-109443_back-x-clip-art-close-button-icon-png.png"></button>
                     </div>
                 </div>
             </div>
         </div>
-    <!-- </form> -->
+        <br/>
+        
+   <div class="jumb">
+    <img src="kempiski.jpeg" alt="Luxe Hotel" style=" max-width: 100%">
+    <!-- <div class="title"> Luxe Hotel</div> -->
+</div>
+<div class="butt">
+    <button onclick="presidential()">Book Now</button>
+</div>
+<div class="rooms" id='rooms'>
+    <div class="container">
+        <div class="row">
+            
+            <Label for="Check-In" class="check"> Check-In
+                <input name="Check-In" type="date" class="form-control inputDate"></Label>
+            <Label for="Check-Out" class="check"> Check-Out
+                <input name="Check-Out" type="date" class="form-control inputDate"></Label>
+
+            <div class="reserve">
+                <button class="res" onclick="" type="button">Reserve Room</button>
+                <button class="close" onclick="closer3()"><img src="10-109443_back-x-clip-art-close-button-icon-png.png"></button>
+            </div>
+        </div>
     </div>
-    
+</div>
+
+   
+
     <script src="books.js"></script>
-    
-    
+
+
 </body>
 
 </html>
