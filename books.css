@@ -90,3 +90,16 @@ div.reserve .res{
     max-width: 20px;
     padding: 5px;
 }
+
+div.recipt
+{
+    margin-top: 10px;
+    text-align: center;
+}
+div.recipt .res{
+    margin: 0;
+    background: burlywood;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+}
